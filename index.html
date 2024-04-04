@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCI 1170 A3</title>
+    <link rel = "icon" type = "image/x-icon" href = "logo.webp">
+
+    <!--Photo taken from: https://www.dreamstime.com/illustration/jz-icon.html  date accessed feb 7 2024-->
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+<body id="bd">
+    <div id = "container">
+    <hr>
+    
+      <a href = "index.html"  id = "title"><h1 class = "c">Jim Zhang</h1></a>
+            
+    <hr> 
+    <nav>
+        <h2 id = "menu">Menu</h2>
+        <div id = "table1">
+        <table> 
+            <tr> 
+                <td><button class = "bt">
+                    <a href = "index.html">Home</a>
+                </button></td>
+                <td> 
+                    <button class = "bt"> 
+                        <a href = "hobbie.html">Hobbie</a>
+                    </button>
+                </td>
+                <td> 
+                    <button class = "bt"> 
+                        <a href = "Education.html">Education</a>
+                    </button>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <br> 
+    </nav>
+
+    <hr> 
+    <hr>
+    <button id = "b2">Light Mode</button>
+    <button id = "b1">Dark Mode</button>
+    <button id = "b3">Reset</button>
+    <h2 class = "c">Intro:</h2>
+    <div class = "div1">
+    <p class = "intro1">Hi I'am Jim and I'm super excited to be starting my journey as a first-year computer science student.
+         Computers have always fascinated me, 
+         and I love figuring out how they work and 
+         what we can do with them. </p>
+</div>
+<div class = "div2">
+         <p class = "intro1">I'm really looking forward to learning all about programming, algorithms, and problem-solving.
+             I think it's so cool how we can use technology to
+              solve real-world problems and make things better for people.</p>
+              </div>
+    <main> 
+        <div class = "div3">
+        <img src = "Me.JPG" alt = "Picture of myself" class = "pic">
+        </div>
+        <!-- photo taken from Jim Zhang date taken feb. 6 2024 -->
+        <hr> 
+        <hr> 
+        <h3 class = "c">About me:</h3>
+    
+        <p class = "p1"> I'am an 18-year-old first-year computer science student at Dalhousie University.
+             I was born in China, but my family moved to Nova Scotia when I was 10 years old,
+              and I've been here ever since.
+               Growing up in Nova Scotia, I've had the opportunity to experience the beautiful landscapes and welcoming communities that make this place special. 
+               All of my education, from elementary school to high school, has been right here in NS.</p>
+                
+
+                
+               <p class = "p2">When I'm not studying, I love playing soccer and gaming. Soccer is something I've enjoyed since I was little, 
+                and I still find it really fun to play with friends. 
+                Gaming is another thing I enjoy; it's like exploring new worlds and stories, 
+                and it's a great way for me to relax and have fun.</p>
+               
+        </main>
+                    </td>
+                </tr>
+                <br>
+            <hr> 
+        <hr>
+        </div>
+    </body>
+        
+    <footer> 
+
+        <h3 id = "formTitle">Contact me</h3>
+        <p id = "demo"></p>
+        <div id = "form1">
+        <form id = "form" action="#">
+            <label class = "c">First Name*</label><br>
+            <input type = "text" required id = "fName"><br><br>
+            
+            <label class = "c">Last Name*</label><br>
+            <input type = "text" required id = "lName"><br><br>
+
+            <label class = "c">Phone number*</label><br>
+            <input type ="number" required id = "number"><br><br> 
+
+            <label class = "c">Email*</label><br> 
+            <input type ="email" required id = "email"><br><br>
+
+            <label class = "c">Address</label><br> 
+            <input type = "text" id = "address"><br><br>
+
+            <label class = "c">Postal Code</label><br>
+            <input type = "text" id = "code" pattern="[a-zA-Z]\d[a-zA-z]\s\d\[a-zA-Z]\d" required><br><br>
+
+            <label class = "c">Message</label><br> 
+            <textarea id = "message" name = "message" row = "4" cols="50"></textarea><br><br>
+            <button id = "submit">Submit</button>
+
+           
+        </form>
+        </div>
+        <P>Email me for school : <a href="mailto: dy716581@dal.ca">dy716581@dal.ca</a></P>
+        <p>Email me in general : <a href = "mailto: jimzhang1107@gmail.com"> Click Here !</a></p>
+    </footer>
+    </div>
+    <script src = "js.js"></script>
+</body>
+
+</html>

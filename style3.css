@@ -1,0 +1,240 @@
+.title{ 
+    text-align: center;
+    color: #333333;
+}
+
+.title:hover{ 
+    color:#006400;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+a:hover{ 
+    color: red; 
+    cursor: pointer;
+    font-size: larger;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+#programmingLanguage{ 
+    text-align: center;
+}
+#bd{ 
+    background-color:rgb(137,207,240);
+}
+
+
+table, th, td{ 
+    border: 1px solid; 
+    width: 50%; 
+    padding: 5px;
+    text-align: center;
+}
+
+:root{ 
+    --main-color: rgb(178,59,15);
+}
+
+p{ 
+    color : var(--main-color);
+}
+
+
+*{ 
+    font-style: oblique;
+}
+.language, .data1, .data2 { 
+    border: 2px solid; 
+    width:50%; 
+    padding: 10px; 
+}
+
+p ~ img{ 
+    border: 5px solid hsl(285,100%, 50%);
+    padding:5px;
+}
+
+p + p{ 
+    color: black;
+}
+
+a[href = "file:///C:/Users/jimzh/OneDrive/1238-%20CSCI%201170/A1_dy716581/index.html"]{ 
+    color: #333333; 
+}
+a[href = "file:///C:/Users/jimzh/OneDrive/1238-%20CSCI%201170/A1_dy716581/hobbie.html" ]{ 
+    color: salmon; 
+}
+
+a[href = "file:///C:/Users/jimzh/OneDrive/1238-%20CSCI%201170/A1_dy716581/Education.html"]{ 
+    color:crimson;
+}
+
+#programming1, #ide > li{ 
+    color:rgb(66, 87, 126)
+}
+
+#programming1, #ide { 
+    list-style-type: square;
+}
+
+
+.audio{ 
+    border: none; 
+    padding: 3px; 
+    margin-left:100px;
+}
+
+.container2{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    img { 
+        width: auto;
+        max-width: 100%;
+    }
+    .container2{ 
+        width: auto;
+    }
+}
+
+@media(min-width:601px) and (max-width: 900px){ 
+    img{ 
+        width:auto;
+        max-width: 100%;
+    }
+
+    .language{ 
+        width: 60%;
+    }
+    table{ 
+        width: 60%;
+    }
+
+    .container2{ 
+        width: auto;
+    }
+}
+
+@media(min-width: 900px){ 
+    img{ 
+        width: auto; 
+    }
+    table{ 
+        width: auto;
+    }
+
+    .container2{ 
+        width: auto;
+    }
+}
+#tableForSchool{ 
+    text-align: center;
+}
+
+#tableForSchool table { 
+    margin: 0 auto; 
+}
+
+#t{ 
+    width: 100%;
+}
+
+#table1{ 
+    border: none; 
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+#table1 tr{ 
+    border: none; 
+}
+
+#table1 td{ 
+    border: none;
+}
+
+#b1:hover{ 
+    background-color: black;
+    color: white; 
+    transition: 0.6s;
+}
+
+#b2:hover{ 
+    background-color: rgb(183, 166, 166);
+    color: black;
+    transition: 0.6s;
+}
+
+#b3:hover{ 
+    background-color:rgb(137,207,240) ;
+    color: black;
+    transition: 0.6s;
+}
+
+
+@media (max-width: 600px){ 
+    #table1 > button{ 
+        width: auto; 
+    }
+    .bt2{ 
+        width: auto;
+    }
+    button.bt2{ 
+        width: auto;
+    }
+    table{ 
+        width: 100%; 
+    }
+    table img{ 
+        width: 100%;
+    }
+}
+
+@media(min-width:600px) and (max-width:900px){ 
+    #table1{ 
+        width: auto;
+    }
+
+    #table1 > button{ 
+        width: auto;
+    }
+
+    button.bt2{ 
+        width: auto;
+    }
+}
+
+@media(min-width: 900px){ 
+    #table1{ 
+        width: auto;
+        height: auto;
+    }
+
+    #table1 > button{ 
+        width: auto;
+    }
+
+    button.bt2{ 
+        width: auto;
+    }
+
+    table img{ 
+       max-height: 200px;
+    }
+}
+
+
+button.bt2{ 
+    border: 1px solid aqua;
+    width: auto;
+    max-width: 500px;
+    height: 50px;
+    font-size: xx-large;
+    
+}

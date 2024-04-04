@@ -1,0 +1,225 @@
+#title{ 
+    text-align: center;
+    color: #333333;
+}
+
+#title:hover{ 
+    color:#006400;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+p{ 
+    color: rgb(178, 59, 15);
+}
+
+
+button.bt{ 
+    border: 1px solid aqua;
+    width: 500px;
+    height: 50px;
+    font-size: xx-large;
+    
+}
+
+#menu{ 
+    text-align: center;
+}
+
+#table1{ 
+    width: 100%;
+    border: none; 
+}
+
+#table1 table{ 
+    width: 100%;
+    border: none; 
+}
+
+#table1 td{ 
+    width: 33.33%; 
+    text-align: center;
+    border: none; 
+}
+.pic{ 
+    border: 10px solid pink;
+    padding: 5px; 
+    margin-left: 40%;
+    width: 400px; 
+    height: 500px;
+}
+
+table, th, td{ 
+    border: 1px solid purple; 
+    width: 50%; 
+    padding: 5px;
+    text-align:center;
+}
+
+#bd{ 
+    background-color:rgb(137,207,240);
+}
+
+a:hover{ 
+    color: red; 
+    cursor: pointer;
+    font-size: larger;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+*{ 
+    font-style: oblique;
+}
+
+a[href = "file:///C:/Users/jimzh/OneDrive/1238-%20CSCI%201170/A1_dy716581/index.html"]{ 
+    color: #333333; 
+}
+a[href = "file:///C:/Users/jimzh/OneDrive/1238-%20CSCI%201170/A1_dy716581/hobbie.html" ]{ 
+    color: salmon; 
+}
+
+a[href = "file:///C:/Users/jimzh/OneDrive/1238-%20CSCI%201170/A1_dy716581/Education.html"]{ 
+    color:crimson;
+}
+
+.conatiner{ 
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:600px) {
+    .pic{ 
+        width:50%; 
+        height:auto;
+    }
+    
+    #table1{ 
+        width: auto;
+    }
+
+    button.bt{ 
+        width: auto;
+    }
+.div1{ 
+    width: 300px; 
+    float: left; 
+}
+
+.div3{ 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.div2{ 
+    width: 300px; 
+    float: right; 
+}
+}
+
+#table1{ 
+    width: 100%;
+}
+
+@media (min-width:600px) and (max-width: 900px) {
+    .pic{ 
+        width:50%; 
+        height:auto;
+    }
+    
+    #table1{ 
+        width: 100%;
+    }
+
+    button.bt{ 
+        width: auto;
+    }
+.div1{ 
+    width: 300px; 
+    float: left; 
+}
+
+.div3{ 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.div2{ 
+    width: 300px; 
+    float: right; 
+}
+}
+
+@media (min-width:900px) {
+    .pic{ 
+        width:30%; 
+        height:50%;
+    }
+    
+    #table1{ 
+        width: 100%;
+    }
+
+    button.bt{ 
+        width: auto;
+    }
+.div1{ 
+    width: 300px; 
+    float: left; 
+}
+
+.div3{ 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.div2{ 
+    width: 300px; 
+    float: right; 
+}
+}
+
+
+#form1{ 
+    text-align: center;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+#formTitle{ 
+    text-align: center;
+}
+
+#demo{ 
+    text-align: center;
+}
+
+#submit{ 
+    width: 20%;
+    background-color: #006400;
+    color: white; 
+}
+
+#submit:hover{ 
+    cursor: pointer;
+}
+
+#b1:hover{ 
+    background-color: black;
+    color: white; 
+    transition: 0.6s;
+}
+
+#b2:hover{ 
+    background-color: rgb(183, 166, 166);
+    color: black;
+    transition: 0.6s;
+}
+
+#b3:hover{ 
+    background-color:rgb(137,207,240) ;
+    color: black;
+    transition: 0.6s;
+}
+
