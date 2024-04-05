@@ -11,6 +11,9 @@ document.getElementById("b1").onclick = function(){
 
     let y = document.getElementById("formTitle"); 
     y.style.color = "white";
+
+    let m = document.getElementById("menu"); 
+    m.style.color = "white";
 }
 
 document.getElementById("b2").onclick = function(){ 
@@ -24,6 +27,9 @@ document.getElementById("b2").onclick = function(){
 
     let y = document.getElementById("formTitle"); 
     y.style.color = "black";
+
+    let m = document.getElementById("menu"); 
+    m.style.color = "black";
 }
 
 document.getElementById("b3").onclick = function(){ 
@@ -37,6 +43,9 @@ document.getElementById("b3").onclick = function(){
 
     let y = document.getElementById("formTitle"); 
     y.style.color = "black";
+
+    let m = document.getElementById("menu"); 
+    m.style.color = "black";
 }
 
 document.getElementById("submit").addEventListener("click", (event)=>{ 
