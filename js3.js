@@ -52,14 +52,14 @@ document.getElementById("b3").onclick = function(){
     for(i = 0; i<y.length; i++){ 
         y[i].style.color = "black";
 
-         let m = document.getElementsByClassName("title");
+   let m = document.getElementsByClassName("title");
    for(i =0; i<m.length; i++){ 
     m[i].style.color = "black";
    }
 
    let n = document.getElementById("menu"); 
    n.style.color = "black";
-    }
+    
 
     const z = document.querySelectorAll('*'); 
     z.forEach(element =>{ 
